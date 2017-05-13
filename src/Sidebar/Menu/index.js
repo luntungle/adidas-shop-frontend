@@ -1,8 +1,5 @@
 import React from 'react';
 import DropdownIcon from './dropdown-icon.svg';
-// import MenuActiveItem from "./menu-active-item";
-// import MenuLower from "./menu-lower";
-// import MenuLinks from "./menu-links";
 import './menu.css';
 
 export default () => {
