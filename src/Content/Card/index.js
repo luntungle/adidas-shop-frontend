@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 // import { Link } from "react-router-dom";
 import './card.css';
-// import Label from "../../Label";
+import Label from '../../Label';
+// import Label from '../Label';
 
 export default class Card extends Component {
   render() {
@@ -9,8 +10,7 @@ export default class Card extends Component {
       <div className="col-md-4">
         <div className="product-card">
           <a href="#">
-            <span className="product-label">sale</span>
-            {/* <img className="product-card-img" src="./images/shoes.jpg" /> */}
+            <Label />
             <img
               alt=""
               className="product-card-img"
