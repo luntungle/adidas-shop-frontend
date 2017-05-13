@@ -1,6 +1,6 @@
 import React from 'react';
 import Filter from './Filter';
-// import Catalog from "./Catalog";
+import Card from './Card';
 import './content.css';
 
 export default () => {
@@ -9,7 +9,7 @@ export default () => {
     // className="Content"
     >
       <Filter />
-      {/* <Catalog /> */}
+      <Card />
     </div>
   );
 };
