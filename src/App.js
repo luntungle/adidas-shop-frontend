@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Sidebar from './Sidebar/index.js';
+import Sidebar from './Sidebar';
 import Content from './Content';
 import './App.css';
 

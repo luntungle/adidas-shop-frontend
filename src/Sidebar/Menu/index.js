@@ -1,5 +1,5 @@
 import React from 'react';
-import Dropdownicon from './dropdown-icon.svg';
+import DropdownIcon from './dropdown-icon.svg';
 // import MenuActiveItem from "./menu-active-item";
 // import MenuLower from "./menu-lower";
 // import MenuLinks from "./menu-links";
@@ -13,7 +13,7 @@ export default () => {
       <a href="#" className="nav-category active">
         Sports
         <img
-          src={Dropdownicon}
+          src={DropdownIcon}
           className="Dropdownicon"
           alt="text for dropdown icon"
         />

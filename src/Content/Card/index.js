@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-// import { Link } from "react-router-dom";
 import './card.css';
 import Label from '../../Label';
-// import Label from '../Label';
 
 export default class Card extends Component {
   render() {

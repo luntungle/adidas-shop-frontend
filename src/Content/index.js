@@ -5,9 +5,7 @@ import './content.css';
 
 export default () => {
   return (
-    <div
-    // className="Content"
-    >
+    <div className="Content">
       <Filter />
       <Card />
     </div>
