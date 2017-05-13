@@ -1,0 +1,33 @@
+.Filter {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  border-bottom: 3px solid #e7e7e7;
+  padding-left: 24px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 0px;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: "avenir-next";
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #d6d6d6;
+  padding: 0px 2px;
+}
+
+.filter-active {
+  color: #4d42f8;
+}
+
+.filter-size-label {
+  font-family: "avenir-next";
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-left: 36px;
+  margin-right: 18px;
+  color: #4d42f8;
+}

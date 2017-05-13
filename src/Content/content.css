@@ -1,0 +1,11 @@
+.Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*width: 1024px;
+  height: 1024px;*/
+
+}
+
+a {
+  text-decoration: none; }

@@ -1,0 +1,10 @@
+.adidaslogo-wrapper {
+/*еще одна обертка?! */
+}
+
+.adidas-logo {
+  width: 94px;
+  height: 94px;
+  object-fit: contain;
+  margin-top: 31px;
+}

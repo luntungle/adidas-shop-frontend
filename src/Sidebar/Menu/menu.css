@@ -1,0 +1,37 @@
+.nav-category {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.nav-subcategory {
+  font-family: "andale-mono";
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  padding-bottom: 25px;
+  text-align: center;
+
+}
+
+.active  {
+  color: #fff;
+}
+
+.sidebar-menu-lower {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.menu-links {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.Dropdownicon {
+  padding-left: 6px;
+}
