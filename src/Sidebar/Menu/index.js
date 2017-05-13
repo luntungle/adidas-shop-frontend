@@ -4,9 +4,7 @@ import './menu.css';
 
 export default () => {
   return (
-    <div
-    // className="Menu"
-    >
+    <div>
       <a href="#" className="nav-category active">
         Sports
         <img
@@ -16,15 +14,9 @@ export default () => {
         />
       </a>
       <nav className="sidebar-menu-lower">
-        <div>
-          <a href="#" className="nav-subcategory active">Shoes</a>
-        </div>
-        <div>
-          <a href="#" className="nav-subcategory">Clothing</a>
-        </div>
-        <div>
-          <a href="#" className="nav-subcategory">Accessories</a>
-        </div>
+        <a href="#" className="nav-subcategory active">Shoes</a>
+        <a href="#" className="nav-subcategory">Clothing</a>
+        <a href="#" className="nav-subcategory">Accessories</a>
       </nav>
 
       <nav>

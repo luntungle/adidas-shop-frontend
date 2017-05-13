@@ -1,12 +1,12 @@
-import React from "react";
-import Searchicon from "./search-icon.svg";
-import "./search.css";
+import React from 'react';
+import SearchIcon from './search-icon.svg';
+import './search.css';
 
 export default () => {
   return (
     <div className="search-form">
       <img
-        src={Searchicon}
+        src={SearchIcon}
         className="search-icon"
         alt="text for search icon"
       />

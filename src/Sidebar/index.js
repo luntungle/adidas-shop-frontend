@@ -1,5 +1,5 @@
 import React from 'react';
-import Adidaslogo from './Logo';
+import Logo from './Logo';
 import Search from './Search';
 import Menu from './Menu';
 import './sidebar.css';
@@ -7,7 +7,7 @@ import './sidebar.css';
 export default () => {
   return (
     <div className="Sidebar">
-      <Adidaslogo />
+      <Logo />
       <Search />
       <Menu />
     </div>
