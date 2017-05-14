@@ -11,15 +11,20 @@ export default () => (
     <Filter />
     <Row>
       <Col xs={12} sm={6} lg={4}>
-        <Card />
-        <Label />
+        <Card>
+          <Label />
+        </Card>
       </Col>
       <Col xs={12} sm={6} lg={4}><Card /></Col>
       <Col xs={12} sm={6} lg={4}><Card /></Col>
     </Row>
     <Row>
       <Col xs={12} sm={6} lg={4}><Card /></Col>
-      <Col xs={12} sm={6} lg={4}><Card /></Col>
+      <Col xs={12} sm={6} lg={4}>
+        <Card>
+          <Label />
+        </Card>
+      </Col>
       <Col xs={12} sm={6} lg={4}><Card /></Col>
     </Row>
 

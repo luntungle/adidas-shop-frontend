@@ -1,7 +1,5 @@
 import React from 'react';
-import adidaslogo from './adidas-logo.png';
+import adidaslogo from './adidaslogo.png';
 import './adidaslogo.css';
 
-export default () => (
-  <img src={adidaslogo} className="adidas-logo" alt="text for adidas logo" />
-  );
+export default () => <img src={adidaslogo} className="adidasLogo" alt="text for adidas logo" />;
