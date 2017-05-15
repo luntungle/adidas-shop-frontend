@@ -1,13 +1,15 @@
 import React from 'react';
-import Title from './Title';
-import SaveButton from './SaveButton';
 import './details.css';
 
 export default () => (
   <div>
     <div className="wrapper">
-      <Title />
-      <SaveButton />
+
+      <div className="product-model">
+        <h1>Ultra<br />Boost</h1>
+        <button className="product-save-button">Save</button>
+      </div>
+
       <div className="product-details">
         <button className="product-color color-darkgrey" />
         <button className="product-color color-blue" />
@@ -28,7 +30,7 @@ export default () => (
         <img
           alt=""
           className="product-img-thumb"
-          // className="thumb-outline"
+          className="thumb-outline"
           src="images/shoes3.jpg"
         />
         <div className="more-photos">

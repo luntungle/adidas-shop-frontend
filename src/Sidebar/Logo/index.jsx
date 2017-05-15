@@ -1,5 +1,11 @@
 import React from 'react';
-import adidaslogo from './adidaslogo.png';
-import './adidaslogo.css';
+import styled from 'styled-components';
 
-export default () => <img src={adidaslogo} className="adidasLogo" alt="text for adidas logo" />;
+const Img = styled.img`
+width: 94px;
+height: 94px;
+object-fit: contain;
+margin-top: 31px;
+`;
+
+export default () => <Img src={require('./adidaslogo.png')} alt="logo" />;

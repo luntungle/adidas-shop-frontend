@@ -1,3 +1,17 @@
+/*обертка сублинков*/
+.sidebar-menu-lower {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  text-align: center;
+}
+/*обертка нижних двух строк*/
+.menu-links {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+/*это перенесено */
 .nav-category {
   font-size: 24px;
   text-transform: uppercase;
@@ -6,6 +20,7 @@
   text-align: center;
 }
 
+/*это перенесено */
 .nav-subcategory {
   font-family: "andale-mono";
   font-size: 24px;
@@ -13,25 +28,13 @@
   color: #3c3c3c;
   padding-bottom: 25px;
   text-align: center;
-
 }
-
+/*это перенесено */
 .active  {
   color: #fff;
 }
 
-.sidebar-menu-lower {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 25px;
-  text-align: center;
-}
-
-.menu-links {
-  text-align: center;
-  padding-bottom: 25px;
-}
-
+/*это перенесено */
 .Dropdownicon {
   padding-left: 6px;
 }

@@ -4,7 +4,7 @@ import Filter from './Filter';
 import Card from './Card';
 import Label from '../Label';
 
-// import './list.css';
+import './list.css';
 
 export default () => (
   <div className="List">

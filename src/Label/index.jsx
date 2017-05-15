@@ -1,4 +1,20 @@
 import React from 'react';
-import './label.css';
+import styled from 'styled-components';
 
-export default () => <span className="label">sale</span>;
+const PinkSale = styled.span`
+  ${/* font-weight: bold;
+  text-transform: uppercase; */ ''}
+  font-size: 14px;
+  font-family: "avenir-next-medium", Arial;
+  color: #fff;
+  position: absolute;
+  right: 17px;
+  top: 17px;
+  display: inline-block;
+  width: 76px;
+  /*height: 28px;*/
+  padding: 6px 0;
+  text-align: center;
+  background: #ff5c5c;
+`;
+export default () => <PinkSale>sale</PinkSale>;

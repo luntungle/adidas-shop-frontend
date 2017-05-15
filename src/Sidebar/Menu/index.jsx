@@ -1,26 +1,70 @@
 import React from 'react';
-import DropdownIcon from './dropdown-icon.svg';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
+import DropdownIcon from './DropdownIcon';
 import './menu.css';
 
-export default () => (
-  <div>
-    <a href="/" className="nav-category active">
-      Sports
-      <img src={DropdownIcon} className="Dropdownicon" alt="text for dropdown icon" />
-    </a>
-    <nav className="sidebar-menu-lower">
-      <a href="/" className="nav-subcategory active">Shoes</a>
-      <a href="/" className="nav-subcategory">Clothing</a>
-      <a href="/" className="nav-subcategory">Accessories</a>
-    </nav>
+const StyledMenu = styled.nav`
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+`;
 
-    <nav>
-      <div className="menu-links">
-        <a href="/" className="nav-category">Brands</a>
-      </div>
-      <div className="menu-links">
-        <a href="/" className="nav-category">Micoach</a>
-      </div>
-    </nav>
-  </div>
+const MenuLine = styled.div`
+  margin: 10px 0;
+`;
+
+const TopLink = styled(Link)`
+font-size: 24px;
+text-transform: uppercase;
+color: #3c3c3c;
+cursor: pointer;
+padding-bottom: 25px;
+text-align: center;
+font-family: "avenir-next";
+font-weight: 700;
+${p => p.IsSelected && 'color: #ffffff;'}
+&:hover {color: #ffffff;}
+`;
+
+const SubLink = styled(Link)`
+font-family: "andale-mono";
+font-size: 24px;
+text-transform: uppercase;
+color: #3c3c3c;
+padding-bottom: 25px;
+text-align: center;
+${p => p.IsSelected && 'color: #ffffff;'}
+&:hover {color: #ffffff;}
+`;
+
+const Wrapper = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 16px;
+`;
+
+export default () => (
+  <StyledMenu>
+    <MenuLine>
+      <TopLink to="/" IsSelected>
+        Sports<DropdownIcon />
+      </TopLink>
+    </MenuLine>
+    <Wrapper>
+      <SubLink to="/" IsSelected>Shoes</SubLink>
+      <SubLink to="/">Clothing</SubLink>
+      <SubLink to="/">Accessories</SubLink>
+    </Wrapper>
+
+    <MenuLine>
+      <TopLink to="/">Brands</TopLink>
+    </MenuLine>
+    <MenuLine>
+      <TopLink to="/">Micoach</TopLink>
+    </MenuLine>
+  </StyledMenu>
 );
