@@ -1,20 +1,31 @@
 import React from 'react';
-import Filtericon from './filter.png';
-import './filter.css';
+import styled from 'styled-components';
+import Gender from './Gender';
+import Size from './Size';
+
+export const FilterBox = styled.nav`
+  display: flex;
+  align-items: center;
+  {/* vertical-align: middle; */}
+  border-bottom: 3px solid #e7e7e7;
+  padding-left: 24px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 0px;
+`;
+
+export const FilterImage = styled.img`
+  width: 55px;
+  height: 55px;
+  margin-left: 0px;
+  background: url(${require('./filter.png')}) no-repeat center #ebebeb;
+  border: none;
+  `;
 
 export default () => (
-  <div className="Filter">
-    <img src={Filtericon} className="Filtericon" alt="text for filter icon" />
-    <button className="filter-active">Men</button>
-    <button>Women</button>
-
-    <span className="filter-size-label">size</span>
-    <button>36</button>
-    <button>37</button>
-    <button>38</button>
-    <button>39</button>
-    <button>40</button>
-    <button className="filter-active">41</button>
-    <button>42</button>
-  </div>
-  );
+  <FilterBox>
+    <FilterImage />
+    <Gender />
+    <Size />
+  </FilterBox>
+);
