@@ -6,12 +6,13 @@ import Size from './Size';
 export const FilterBox = styled.nav`
   display: flex;
   align-items: center;
-  {/* vertical-align: middle; */}
+  width: 980px;
   border-bottom: 3px solid #e7e7e7;
-  padding-left: 24px;
+  padding-left: 2px;
   padding-top: 11px;
-  padding-bottom: 11px;
+  padding-bottom: 10px;
   padding-right: 0px;
+  margin-bottom: 11px;
 `;
 
 export const FilterImage = styled.img`
