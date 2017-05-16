@@ -24,7 +24,7 @@ const Button = styled.button`
   font-weight: bold;
   font-size: 24px;
   text-transform: uppercase;
-  color: ${props => (props.active ? '#4d42f8' : '#d6d6d6')};
+  color: ${props => (props.isActive ? '#4d42f8' : '#d6d6d6')};
   padding: 0px 5px;
   cursor: pointer;
   &:hover {color: #4d42f8; }
@@ -38,7 +38,7 @@ export default () => (
     <Button>38</Button>
     <Button>39</Button>
     <Button>40</Button>
-    <Button active>41</Button>
+    <Button isActive>41</Button>
     <Button>42</Button>
   </Wrapper>
 );

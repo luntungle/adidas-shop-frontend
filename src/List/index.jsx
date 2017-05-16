@@ -20,8 +20,6 @@ export default () => (
         <Col xs={12} sm={6} lg={4}><Card /></Col>
         <Col xs={12} sm={6} lg={4}><Card /></Col>
         <Col xs={12} sm={6} lg={4}><Card /></Col>
-      </Row>
-      <Row>
         <Col xs={12} sm={6} lg={4}><Card /></Col>
         <Col xs={12} sm={6} lg={4}><Card /></Col>
         <Col xs={12} sm={6} lg={4}><Card /></Col>
