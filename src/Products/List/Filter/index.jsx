@@ -12,7 +12,7 @@ const FilterBox = styled.nav`
   border-bottom: 3px solid #e7e7e7;
 `;
 
-const FilterImage = styled.img`
+const FilterImage = styled.div`
   width: 55px;
   height: 55px;
   margin-left: 0px;
