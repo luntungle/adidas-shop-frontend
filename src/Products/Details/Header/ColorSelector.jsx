@@ -2,8 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  display: inline-flex;
-  margin-right: 20px;
+display: inline-block;
+position: relative;
+top: 4px;
+margin-right: 20px;
+
 `;
 
 const Button = styled.button`

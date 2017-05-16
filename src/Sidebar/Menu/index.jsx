@@ -2,8 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
-// import DropdownIcon from './DropdownIcon';
-
 const StyledMenu = styled.nav`
   text-align: center;
   display: flex;
@@ -25,7 +23,6 @@ const TopLink = styled(NavLink)`
   text-align: center;
   font-family: "avenir-next";
   font-weight: 700;
-  /*hover: #ffffff;*/
   text-decoration: none;
   &:hover { color: #ffffff}
 `;
