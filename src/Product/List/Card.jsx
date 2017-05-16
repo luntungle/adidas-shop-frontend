@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import Label from '../../Label';
+import Label from '../../components/Label';
 
 const Card = styled.div`
   padding: 9px;
@@ -16,6 +16,7 @@ const Card = styled.div`
 const Image = styled.img`
   max-width:100%;
   height:auto;
+  object-fit: fill;
 `;
 
 const Price = styled.span`
@@ -37,7 +38,7 @@ export default () => (
   <Card>
     <Label />
     <CardLink to="/Details" title="Details page">
-      <Image src={require('./shoes.jpg')} alt="" />
+      <Image src={require('../../components/img/shoes.jpg')} alt="" />
       <Price>$170</Price>
     </CardLink>
   </Card>

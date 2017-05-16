@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import styled from 'styled-components';
 
 import Sidebar from './Sidebar';
-import List from './List';
-import Details from './Details';
-import './fonts/fonts.css';
+import List from './Product/List';
+import Details from './Product/Details';
+import './components/fonts/fonts.css';
 
 const Wrapper = styled.div`
   min-height: 100vh;
@@ -20,7 +20,7 @@ export default () => (
     <Wrapper>
       <Sidebar />
       <Route exact path="/" component={List} />
-      <Route path="/item" component={Details} />
+      <Route path="/Details" component={Details} />
     </Wrapper>
   </Router>
 );
