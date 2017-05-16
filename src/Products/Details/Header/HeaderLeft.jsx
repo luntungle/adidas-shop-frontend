@@ -10,6 +10,7 @@ const Wrapper = styled.section`
   font-weight: 700;
   text-transform: uppercase;
   font-family: "avenir-next", Arial;
+  padding-left: 420px;
 `;
 
 const Title = styled.h1`

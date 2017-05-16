@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 // import DropdownIcon from './DropdownIcon';
@@ -16,7 +16,7 @@ const MenuLine = styled.div`
   margin: 10px 0;
 `;
 
-const TopLink = styled(Link)`
+const TopLink = styled(NavLink)`
   font-size: 24px;
   text-transform: uppercase;
   color: #3c3c3c;
@@ -25,21 +25,20 @@ const TopLink = styled(Link)`
   text-align: center;
   font-family: "avenir-next";
   font-weight: 700;
-  ${p => p.isActive && 'color: #ffffff;'}
-  &:hover {color: #ffffff;}
+  /*hover: #ffffff;*/
   text-decoration: none;
+  &:hover { color: #ffffff}
 `;
 
-const SubLink = styled(Link)`
+const SubLink = styled(NavLink)`
   font-family: "andale-mono";
   font-size: 24px;
   text-transform: uppercase;
   color: #3c3c3c;
   padding-bottom: 25px;
   text-align: center;
-  ${p => p.isActive && 'color: #ffffff;'}
-  &:hover {color: #ffffff;}
   text-decoration: none;
+  &:hover { color: #ffffff}
 `;
 
 const Wrapper = styled.div`
@@ -56,12 +55,12 @@ const Icon = styled.img`
 export default () => (
   <StyledMenu>
     <MenuLine>
-      <TopLink to="/" isActive>
+      <TopLink to="/">
         Sports <Icon src={require('./dropdownicon.svg')} alt="drop-down icon" />
       </TopLink>
     </MenuLine>
     <Wrapper>
-      <SubLink to="/" isActive>Shoes</SubLink>
+      <SubLink to="/">Shoes</SubLink>
       <SubLink to="/">Clothing</SubLink>
       <SubLink to="/">Accessories</SubLink>
     </Wrapper>

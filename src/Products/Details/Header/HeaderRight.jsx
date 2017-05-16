@@ -4,9 +4,21 @@ import Label from '../../../components/Label';
 import ColorSelector from './ColorSelector';
 
 const Wrapper = styled.div`
-  position: absolute;
+  position: absolute; 
   top: 30px;
   right: 30px;
+  width: 250px;
+  height: 160px;
+  text-align: right;
+`;
+
+const Wrapper2 = styled.div`
+  display: flex;
+  position: absolute;
+  width: 240px;
+  height: 60px;
+  text-align: right;
+  justify-content: space-between;
 `;
 
 const Price = styled.h3`
@@ -23,8 +35,10 @@ const Price = styled.h3`
 
 export default () => (
   <Wrapper>
-    <ColorSelector />
-    <Label />
+    <Wrapper2>
+      <ColorSelector />
+      <Label />
+    </Wrapper2>
     <Price>170$</Price>
   </Wrapper>
 );

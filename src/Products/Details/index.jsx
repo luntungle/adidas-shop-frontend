@@ -7,6 +7,17 @@ import Gallery from './Gallery';
 import CompanyText from './CompanyText';
 import BuyButton from './BuyButton';
 
+const Main = styled.main`
+  flex-grow: 2;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+`;
+
+const Container = styled.div`
+
+`;
+
 const BigPicture = styled.img`
   margin: 0 auto;
   display: block;
@@ -14,13 +25,15 @@ const BigPicture = styled.img`
 `;
 
 export default () => (
-  <div>
-    {/* вот сейчас на этом ебаном диве висят отступы, из-за которых всё едет.  или нет */}
-    <HeaderLeft />
-    <HeaderRight />
-    <BigPicture src={require('../../components/img/shoes3_big.jpg')} alt="More" />
-    <Gallery />
+  <Main>
+    <Container>
+      <HeaderLeft />
+      <HeaderRight />
+      <BigPicture src={require('../../components/img/shoes3_big.jpg')} alt="Bigger" />
+      <Gallery />
+      <CompanyText />
+    </Container>
     <BuyButton />
-    <CompanyText />
-  </div>
+
+  </Main>
 );
