@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'andale-mono';
+  src: url('./components/fonts/andale-mono.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'avenir-next';
+  src: url('./components/fonts/avenir-next-bold.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'avenir-next-medium';
+  src: url('./components/fonts/avenir-next-medium.ttf') format('truetype');
+  font-style: normal;
+}

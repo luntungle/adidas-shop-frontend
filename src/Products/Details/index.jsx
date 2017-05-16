@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import HeaderLeft from './Header/HeaderLeft';
 import HeaderRight from './Header/HeaderRight';
+import Gallery from './Gallery';
 import CompanyText from './CompanyText';
 import BuyButton from './BuyButton';
 
@@ -18,8 +19,7 @@ export default () => (
     <HeaderLeft />
     <HeaderRight />
     <BigPicture src={require('../../components/img/shoes3_big.jpg')} alt="More" />
-    {/* <Gallery />
-    <MorePhotos /> */}
+    <Gallery />
     <BuyButton />
     <CompanyText />
   </div>

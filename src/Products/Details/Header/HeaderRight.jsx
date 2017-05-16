@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Label from '../../../components/Label';
-import ColorSelector from '../ColorSelector';
+import ColorSelector from './ColorSelector';
 
 const Wrapper = styled.div`
   position: absolute;

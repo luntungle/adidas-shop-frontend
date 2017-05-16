@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import styled from 'styled-components';
 
 import Sidebar from './Sidebar';
-import List from './Product/List';
-import Details from './Product/Details';
-import './components/fonts/fonts.css';
+import List from './Products/List';
+import Details from './Products/Details';
+import './fonts.css';
 
 const Wrapper = styled.div`
   min-height: 100vh;
@@ -13,6 +13,7 @@ const Wrapper = styled.div`
   margin: 0px;
   display: flex;
   flex-flow: row nowrap;
+  font-family: "avenir-next";
 `;
 
 export default () => (
