@@ -44,7 +44,7 @@ const ButtonMore = styled.button`
   flex: 0 1 40px;
   width: 64px;
   text-align: left;
-  font-family: 'avenir-next-medium';
+  font-family: 'avenir-next';
   font-size: 14px;
   font-weight: bold;
   color: #c0c0c0;
