@@ -20,6 +20,7 @@ const Tag = styled.span`
 const Button = styled.button`
   background: none;
   border: none;
+  outline: none;
   font-family: "avenir-next";
   font-weight: bold;
   font-size: 24px;
