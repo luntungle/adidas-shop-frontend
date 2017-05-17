@@ -18,7 +18,6 @@ const Button = styled.button`
   height: 18px;
   margin: 0 3px;
   background-color: ${props => props.color};
-
 `;
 
 export default () => (
