@@ -5,9 +5,9 @@ const Wrapper = styled.section`
   position: absolute;
   top: 26px;
   left:30px;
-  width: 200px;
+  width: auto;
   font-weight: 700;
-  padding-left: 420px;
+
 `;
 
 const Title = styled.h1`
