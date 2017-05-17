@@ -17,9 +17,9 @@ const MenuLine = styled.div`
 const TopLink = styled(NavLink)`
   font-size: 24px;
   text-transform: uppercase;
-  color: #3c3c3c;
   cursor: pointer;
   padding-bottom: 25px;
+  color: #3c3c3c;
   text-align: center;
   font-family: "avenir-next";
   font-weight: 700;
@@ -31,7 +31,7 @@ const SubLink = styled(NavLink)`
   font-family: "andale-mono";
   font-size: 24px;
   text-transform: uppercase;
-  color: #3c3c3c;
+  color: #2f2f2f
   padding-bottom: 25px;
   text-align: center;
   text-decoration: none;
