@@ -4,12 +4,12 @@ export const CompanyText = styled.p`
   font-family: 'avenir-next-medium', Arial;
   font-size: 33px;
   line-height: 50px;
-  width: 927px;
+  width: auto;
   height: 150px;
   color: #d8d8d8;
   text-align: left;
   padding-left: 30px;
-
+  margin-bottom: 150px;
 `;
 
 export const StrongText = styled.span`

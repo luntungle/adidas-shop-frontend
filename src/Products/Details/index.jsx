@@ -6,6 +6,7 @@ import HeaderRight from './Header/HeaderRight';
 import Gallery from './Gallery';
 import CompanyText from './CompanyText';
 import BuyButton from './BuyButton';
+import Image from '../../components/img/shoes3_big.jpg';
 
 const Main = styled.main`
   flex-grow: 2;
@@ -29,7 +30,7 @@ export default () => (
     <Container>
       <HeaderLeft />
       <HeaderRight />
-      <BigPicture src={require('../../components/img/shoes3_big.jpg')} alt="Bigger" />
+      <BigPicture src={Image} alt="Bigger" />
       <Gallery />
       <CompanyText />
     </Container>
