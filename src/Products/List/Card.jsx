@@ -2,44 +2,51 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import Label from '../../components/Label';
-
-const Card = styled.div`
-  padding: 9px;
-  position: relative;
-  color: #ffffff;
-  background-color: #f4f4f4;
-  margin: 8px 0px;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-`;
+import pic from '../../components/img/shoes.jpg';
 
 const Image = styled.img`
   max-width:100%;
   height:auto;
-  object-fit: fill;
+  object-fit: contain;
 `;
 
+// const CardLabel = styled(Label)`
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+// `;
+
 const Price = styled.span`
-  display: block;
+  display: flex;
   text-align: center;
+  justify-content: center;
   padding: 25px;
   font-family: "avenir-next";
   font-weight: bold;
   font-size: 24px;
   text-decoration: none;
+  border-top: 9px solid #f4f4f4;
   background-image: linear-gradient(107deg, #0c09bf, #966dd8);
   color: #ffffff;
 `;
 const CardLink = styled(Link)`
+  padding: 0;
+  position: relative;
+  color: #ffffff;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  border: 9px solid #f4f4f4;
   text-decoration: none;
 `;
 
 export default () => (
-  <Card>
-    <Label />
-    <CardLink to="/Details" title="Details page">
-      <Image src={require('../../components/img/shoes.jpg')} alt="" />
-      <Price>$170</Price>
-    </CardLink>
-  </Card>
+  <CardLink to="/Details" title="Details page">
+    <Label isList>sale</Label>
+    <Image src={pic} alt="" />
+    <Price>$170</Price>
+  </CardLink>
 );
