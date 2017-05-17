@@ -9,8 +9,8 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #000;
-  color: #FFF;
+  background-color: #0e0e0e;
+  color: ##0e0e0e;
   max-width: 414px;
   width: 100%;
   height: 1024px;

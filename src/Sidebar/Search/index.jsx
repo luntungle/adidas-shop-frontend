@@ -16,7 +16,7 @@ const Icon = styled.img`
 `;
 
 const Input = styled.input`
-  background-color: #000;
+  background-color: #0e0e0e;
   color: #fff;
   padding-left: 12px;
   font-size: 24px;
