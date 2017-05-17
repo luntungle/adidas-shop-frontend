@@ -11,9 +11,11 @@ const Wrapper = styled.div`
   align-items: center;
   background-color: #0e0e0e;
   color: ##0e0e0e;
-  max-width: 414px;
+  flex-basis: 414px;
+  flex-grow: 0;
+  flex-shrink: 0;
   width: 100%;
-  height: 1024px;
+  min-height: 100vh;
   padding: 0;
   font-family: "avenir-next";
 `;

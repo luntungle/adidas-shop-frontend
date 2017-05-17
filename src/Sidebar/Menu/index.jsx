@@ -4,15 +4,16 @@ import styled from 'styled-components';
 import img from './dropdownicon.svg';
 
 const StyledMenu = styled.nav`
-  text-align: center;
+  min-width: 414px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 414px;
+  background-color: #0e0e0e;
 `;
 
 const MenuLine = styled.div`
-  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 `;
 
 const TopLink = styled(NavLink)`
