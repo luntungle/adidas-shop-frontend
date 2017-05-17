@@ -11,16 +11,10 @@ const Gallery = styled.div`
 `;
 
 const Thumb = styled.img`
-  {''/* width: 15%;
-  height: auto;
-  margin-right: 5px;
-  margin-left: 34px; */}
-  {''/* width: 17%;
-  height: auto; */}
   outline: none;
   cursor: pointer;
   margin: 0 7px;
-  {''/* &:hover { outline: 4px solid #d8d8d8 } */}
+  &:hover { outline: 4px solid #eaeaec }
 `;
 
 const ThreeBars = styled.div`
@@ -49,9 +43,10 @@ const ButtonMore = styled.button`
   font-weight: bold;
   color: #c0c0c0;
   cursor: pointer;
+  outline: none;
   border: none;
   background: transparent;
-  &:hover { color: #6e6e6e}
+
 `;
 
 export default () => (
