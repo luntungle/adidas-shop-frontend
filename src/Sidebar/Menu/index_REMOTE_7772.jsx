@@ -4,18 +4,10 @@ import styled from 'styled-components';
 import img from './dropdownicon.svg';
 
 const StyledMenu = styled.nav`
-<<<<<<< HEAD
-  {''/* min-width: 414px; */}
-  display: flex;
-  flex-direction: column;
-  background-color: #0e0e0e;
-  padding-bottom: 260px;
-=======
   min-width: 414px;
   display: flex;
   flex-direction: column;
   background-color: #0e0e0e;
->>>>>>> fafde5dc61f9da47e54cc154633b51da53793958
 `;
 
 const MenuLine = styled.div`
