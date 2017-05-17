@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
+import img from './dropdownicon.svg';
 
 const StyledMenu = styled.nav`
   text-align: center;
@@ -46,14 +47,14 @@ const Wrapper = styled.div`
 `;
 
 const Icon = styled.img`
-  padding: 0
+  margin-bottom: 4px;
 `;
 
 export default () => (
   <StyledMenu>
     <MenuLine>
       <TopLink to="/">
-        Sports <Icon src={require('./dropdownicon.svg')} alt="drop-down icon" />
+        Sports <Icon src={img} alt="drop-down icon" />
       </TopLink>
     </MenuLine>
     <Wrapper>
