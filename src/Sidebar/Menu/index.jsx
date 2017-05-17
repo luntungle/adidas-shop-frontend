@@ -4,18 +4,10 @@ import styled from 'styled-components';
 import img from './dropdownicon.svg';
 
 const StyledMenu = styled.nav`
-<<<<<<< HEAD
-  {''/* min-width: 414px; */}
   display: flex;
   flex-direction: column;
   background-color: #0e0e0e;
   padding-bottom: 260px;
-=======
-  min-width: 414px;
-  display: flex;
-  flex-direction: column;
-  background-color: #0e0e0e;
->>>>>>> fafde5dc61f9da47e54cc154633b51da53793958
 `;
 
 const MenuLine = styled.div`
@@ -28,7 +20,8 @@ const TopLink = styled(NavLink)`
   font-size: 24px;
   text-transform: uppercase;
   cursor: pointer;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 20px;
   color: #3c3c3c;
   text-align: center;
   font-family: "avenir-next";
@@ -52,7 +45,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px 0px;
+  padding-bottom: 15px;
 `;
 
 const Icon = styled.img`
