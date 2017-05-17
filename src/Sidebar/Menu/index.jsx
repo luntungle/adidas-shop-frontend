@@ -53,12 +53,12 @@ const Icon = styled.img`
 export default () => (
   <StyledMenu>
     <MenuLine>
-      <TopLink to="/">
+      <TopLink to="/" activeStyle={{ color: '#ffffff' }}>
         Sports <Icon src={img} alt="drop-down icon" />
       </TopLink>
     </MenuLine>
     <Wrapper>
-      <SubLink to="/">Shoes</SubLink>
+      <SubLink to="/" activeStyle={{ color: '#ffffff' }}>Shoes</SubLink>
       <SubLink to="/">Clothing</SubLink>
       <SubLink to="/">Accessories</SubLink>
     </Wrapper>
