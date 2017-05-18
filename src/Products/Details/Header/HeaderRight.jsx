@@ -5,7 +5,7 @@ import ColorSelector from './ColorSelector';
 
 const Wrapper = styled.div`
   position: absolute;
-  top: 30px;
+  top: 12px;
   right: 30px;
   width: 250px;
   height: 160px;
@@ -25,7 +25,6 @@ const Wrapper2 = styled.div`
 `;
 
 const Price = styled.h3`
-  {''/* position: absolute; */}
   top: 30px;
   text-align: right;
   font-family: "avenir-next", Arial;
