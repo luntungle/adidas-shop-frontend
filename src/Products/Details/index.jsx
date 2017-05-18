@@ -21,7 +21,7 @@ const Container = styled.div`
 `;
 
 const BigPicture = styled.img`
-  margin: 0 auto;
+  margin-left: 80px;
   display: block;
   width: 80%;
 `;
