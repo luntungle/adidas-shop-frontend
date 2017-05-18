@@ -7,7 +7,7 @@ const Gallery = styled.div`
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
-  margin: 0 7px;
+  margin: 0px 30px 0px 7px;
 `;
 
 const Thumb = styled.img`
