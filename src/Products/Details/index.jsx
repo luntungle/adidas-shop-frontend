@@ -17,7 +17,6 @@ const Main = styled.main`
 `;
 
 const Container = styled.div`
-
 `;
 
 const BigPicture = styled.img`
@@ -36,6 +35,5 @@ export default () => (
       <CompanyText />
     </Container>
     <BuyButton />
-
   </Main>
 );

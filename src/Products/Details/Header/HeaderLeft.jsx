@@ -7,7 +7,6 @@ const Wrapper = styled.section`
   left:30px;
   width: auto;
   font-weight: 700;
-
 `;
 
 const Title = styled.h1`

@@ -10,8 +10,6 @@ import Details from './Products/Details';
 import './fonts.css';
 
 const Wrapper = styled.div`
-  {''/* min-height: 100vh;
-  width: 100%; */}
   margin: 0px;
   display: flex;
   flex-flow: row nowrap;

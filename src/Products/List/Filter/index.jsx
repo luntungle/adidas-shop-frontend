@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import Gender from './Gender';
 import Size from './Size';
+import filter from './filter.png';
 
 const FilterBox = styled.nav`
   display: flex;
@@ -16,9 +17,9 @@ const FilterImage = styled.div`
   width: 55px;
   height: 55px;
   margin-left: 0px;
-  background: url(${require('./filter.png')}) no-repeat center #ebebeb;
+  background: url(${filter}) no-repeat center #ebebeb;
   border: none;
-  `;
+`;
 
 export default () => (
   <FilterBox>

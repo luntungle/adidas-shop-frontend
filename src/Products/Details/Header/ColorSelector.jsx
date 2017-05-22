@@ -2,11 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-display: flex;
-justify-content: space-between;
-width: 111px;
-{''/* top: 4px;
-margin-right: 20px; */}
+  display: flex;
+  justify-content: space-between;
+  width: 111px;
 `;
 
 const Button = styled.button`

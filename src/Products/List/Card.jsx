@@ -10,12 +10,6 @@ const Image = styled.img`
   object-fit: contain;
 `;
 
-// const CardLabel = styled(Label)`
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-// `;
-
 const Price = styled.span`
   display: flex;
   text-align: center;
@@ -29,6 +23,7 @@ const Price = styled.span`
   background-image: linear-gradient(107deg, #0c09bf, #966dd8);
   color: #ffffff;
 `;
+
 const CardLink = styled(Link)`
   padding: 0;
   position: relative;

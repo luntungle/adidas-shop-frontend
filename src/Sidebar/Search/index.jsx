@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import searchicon from './searchicon.svg';
+
 const Wrapper = styled.div`
   display: flex;
   border-bottom: 4px solid #373737;
@@ -27,7 +29,7 @@ const Input = styled.input`
 
 export default () => (
   <Wrapper>
-    <Icon src={require('./searchicon.svg')} alt="looking-glass" />
+    <Icon src={searchicon} alt="looking-glass" />
     <Input />
   </Wrapper>
 );
