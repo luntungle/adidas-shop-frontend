@@ -20,7 +20,7 @@ const Container = styled.div`
 `;
 
 const BigPicture = styled.img`
-  margin-left: 80px;
+  margin: 0 auto;
   display: block;
   width: 80%;
 `;
