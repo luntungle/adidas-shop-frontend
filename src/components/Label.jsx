@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const PinkSale = styled.span`
+const Label = styled.span`
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
@@ -12,8 +12,6 @@ const PinkSale = styled.span`
   line-height: 32px;
   text-align: center;
   background: #ff5c5c;
-  position: ${props => (props.isList ? 'absolute' : 'static')};
-  top: ${props => (props.isList ? '8px' : '0')};
-  right: ${props => (props.isList ? '8px' : '0')};
 `;
-export default PinkSale;
+
+export default Label;

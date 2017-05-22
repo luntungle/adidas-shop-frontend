@@ -38,9 +38,15 @@ const CardLink = styled(Link)`
   text-decoration: none;
 `;
 
+const CardLabel = styled(Label)`
+  position: absolute;
+  top: 8px;
+  right: 8px;
+`;
+
 export default () => (
   <CardLink to="/Details" title="Details page">
-    <Label isList>sale</Label>
+    <CardLabel>sale</CardLabel>
     <Image src={pic} alt="" />
     <Price>$170</Price>
   </CardLink>
