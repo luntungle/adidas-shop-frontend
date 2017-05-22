@@ -1,6 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import thumb1 from '../../components/img/shoes3_1.jpg';
+import thumb2 from '../../components/img/shoes3_2.jpg';
+import thumb3 from '../../components/img/shoes3_3.jpg';
+import thumb4 from '../../components/img/shoes3_4.jpg';
+
 const Gallery = styled.div`
   flex: 1;
   display: flex;
@@ -46,15 +51,14 @@ const ButtonMore = styled.button`
   outline: none;
   border: none;
   background: transparent;
-
 `;
 
 export default () => (
   <Gallery>
-    <Thumb src={require('../../../components/img/shoes3_1.jpg')} alt="" />
-    <Thumb src={require('../../../components/img/shoes3_2.jpg')} alt="" />
-    <Thumb src={require('../../../components/img/shoes3_3.jpg')} alt="" />
-    <Thumb src={require('../../../components/img/shoes3_4.jpg')} alt="" />
+    <Thumb src={thumb1} alt="" />
+    <Thumb src={thumb2} alt="" />
+    <Thumb src={thumb3} alt="" />
+    <Thumb src={thumb4} alt="" />
     <ThreeBars>
       <Bar /> <Bar /> <Bar />
     </ThreeBars>
