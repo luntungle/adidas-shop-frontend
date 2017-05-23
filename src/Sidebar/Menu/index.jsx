@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import dropdownicon from './dropdownicon.svg';
+import dropdownIcon from './dropdownicon.svg';
 
 const StyledMenu = styled.nav`
   display: flex;
@@ -56,7 +56,7 @@ export default () => (
   <StyledMenu>
     <MenuLine>
       <TopLink to="/" activeStyle={{ color: '#ffffff' }}>
-        Sports <Icon src={dropdownicon} alt="drop-down icon" />
+        Sports <Icon src={dropdownIcon} alt="drop-down icon" />
       </TopLink>
     </MenuLine>
     <Wrapper>
