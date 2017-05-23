@@ -9,7 +9,6 @@
 /notes
 .DS_Store
 .env
-.ssh
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
