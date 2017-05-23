@@ -1,19 +1,17 @@
-import React from 'react';
 import styled from 'styled-components';
 
-const PinkSale = styled.span`
+const Label = styled.span`
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
   font-family: 'avenir-next-bold', Arial;
-  color: #fff;
-  position: absolute;
-  right: 17px;
-  top: 17px;
-  display: inline-block;
+  color: #ffffff;
+  box-sizing: border-box;
   width: 76px;
-  padding: 6px 0;
+  height: 32px;
+  line-height: 32px;
   text-align: center;
   background: #ff5c5c;
 `;
-export default () => <PinkSale>sale</PinkSale>;
+
+export default Label;

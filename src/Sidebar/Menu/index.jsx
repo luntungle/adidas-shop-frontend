@@ -1,24 +1,27 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
+import dropdownIcon from './dropdownicon.svg';
 
 const StyledMenu = styled.nav`
-  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 414px;
+  background-color: #0e0e0e;
+  padding-bottom: 260px;
 `;
 
 const MenuLine = styled.div`
-  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 `;
 
 const TopLink = styled(NavLink)`
   font-size: 24px;
   text-transform: uppercase;
   cursor: pointer;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 20px;
   color: #3c3c3c;
   text-align: center;
   font-family: "avenir-next";
@@ -42,26 +45,25 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px 0px;
+  padding-bottom: 15px;
 `;
 
 const Icon = styled.img`
-  padding: 0
+  margin-bottom: 4px;
 `;
 
 export default () => (
   <StyledMenu>
     <MenuLine>
-      <TopLink to="/">
-        Sports <Icon src={require('./dropdownicon.svg')} alt="drop-down icon" />
+      <TopLink to="/" activeStyle={{ color: '#ffffff' }}>
+        Sports <Icon src={dropdownIcon} alt="drop-down icon" />
       </TopLink>
     </MenuLine>
     <Wrapper>
-      <SubLink to="/">Shoes</SubLink>
+      <SubLink to="/" activeStyle={{ color: '#ffffff' }}>Shoes</SubLink>
       <SubLink to="/">Clothing</SubLink>
       <SubLink to="/">Accessories</SubLink>
     </Wrapper>
-
     <MenuLine>
       <TopLink to="/">Brands</TopLink>
     </MenuLine>

@@ -4,26 +4,29 @@ import Label from '../../../components/Label';
 import ColorSelector from './ColorSelector';
 
 const Wrapper = styled.div`
-  position: absolute; 
-  top: 30px;
+  position: absolute;
+  top: 12px;
   right: 30px;
   width: 250px;
   height: 160px;
   text-align: right;
+  padding: 0;
+  margin: 0;
 `;
 
 const Wrapper2 = styled.div`
   display: flex;
-  position: absolute;
   width: 240px;
   height: 60px;
-  text-align: right;
+  align-items: center;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
 `;
 
 const Price = styled.h3`
-  {''/* position: absolute; */}
-  top: 50px;
+  top: 30px;
+  text-align: right;
   font-family: "avenir-next", Arial;
   font-size: 80px;
   font-weight: 700;
@@ -37,7 +40,7 @@ export default () => (
   <Wrapper>
     <Wrapper2>
       <ColorSelector />
-      <Label />
+      <Label>sale</Label>
     </Wrapper2>
     <Price>170$</Price>
   </Wrapper>

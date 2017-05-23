@@ -1,7 +1,4 @@
 .App {
   display: flex;
   flex-direction: row;
-  align-items: top;
-  width: 1440px;
-  height: 1024px;
 }
