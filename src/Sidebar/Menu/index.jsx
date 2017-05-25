@@ -22,12 +22,11 @@ const TopLink = styled(NavLink)`
   cursor: pointer;
   padding-top: 15px;
   padding-bottom: 20px;
-  color: #3c3c3c;
+  color: #ffffff;
   text-align: center;
   font-family: "avenir-next";
   font-weight: 700;
   text-decoration: none;
-  &:hover { color: #ffffff}
 `;
 
 const SubLink = styled(NavLink)`
@@ -55,20 +54,30 @@ const Icon = styled.img`
 export default () => (
   <StyledMenu>
     <MenuLine>
-      <TopLink to="/" activeStyle={{ color: '#ffffff' }}>
-        Sports <Icon src={dropdownIcon} alt="drop-down icon" />
+      <TopLink to="/">
+        Football <Icon src={dropdownIcon} alt="drop-down icon" />
       </TopLink>
     </MenuLine>
     <Wrapper>
-      <SubLink to="/" activeStyle={{ color: '#ffffff' }}>Shoes</SubLink>
+      <SubLink to="/">Shoes</SubLink>
       <SubLink to="/">Clothing</SubLink>
       <SubLink to="/">Accessories</SubLink>
     </Wrapper>
     <MenuLine>
-      <TopLink to="/">Brands</TopLink>
+      <TopLink to="/">Running <Icon src={dropdownIcon} alt="drop-down icon" /></TopLink>
     </MenuLine>
+    <Wrapper>
+      <SubLink to="/">Shoes</SubLink>
+      <SubLink to="/">Clothing</SubLink>
+      <SubLink to="/">Accessories</SubLink>
+    </Wrapper>
     <MenuLine>
-      <TopLink to="/">Micoach</TopLink>
+      <TopLink to="/">Basketball <Icon src={dropdownIcon} alt="drop-down icon" /></TopLink>
     </MenuLine>
+    <Wrapper>
+      <SubLink to="/">Shoes</SubLink>
+      <SubLink to="/">Clothing</SubLink>
+      <SubLink to="/">Accessories</SubLink>
+    </Wrapper>
   </StyledMenu>
 );
